@@ -1,19 +1,31 @@
 class Purse {
-  constructor(goldCoin, silverCoin, copperCoin) {
-    this.goldCoin = goldCoin;
-    this.silverCoin = silverCoin;
-    this.copperCoin = copperCoin;
+
+  constructor() {
+    this.value = 0
   }
-  get copperValue() {
-    return (
-      this.goldCoin.quantity * this.goldCoin.value +
-      this.silverCoin.quantity * this.silverCoin.value +
-      this.copperCoin.quantity * this.copperCoin.value
-    );
+  valueOf() {
+    return 0
+  }
+  normalize() {
+    var coins = {
+      gold: 0,
+      silver: 0,
+      copper: 0
+    }
+    coins.gold = Math.floor(this.value / Gold.value)
+    coins.silver = Math.floor((this.value % Gold.value) / Silver.value)
+    coins.copper = this.value - coins.gold * Gold.value - coins.silver * Silver.value
+    return coins
+  }
+  Add(coin) {
+    this.value += coin.quantity * coin.value;
+  }
+  Remove(coin) {
+    this.value = Math.max(this.value - coin.quantity * coin.value, 0);
   }
 }
 
-const CoinType = Object.freeze({ COPPER: "copper", SILVER: "Silver", GOLD: "Gold" });
+const CoinType = Object.freeze({COPPER: "copper", SILVER: "Silver", GOLD: "Gold"});
 
 class Coin {
   constructor(type) {
@@ -24,26 +36,48 @@ class Coin {
 class Gold extends Coin {
   constructor(quantity) {
     super(CoinType.GOLD);
-    this.value = 240;
     this.quantity = quantity;
+    this.value = Gold.value;
+  }
+  valueOf() {
+    return Gold.value * this.quantity
   }
 }
-
+Gold.value = 240;
 class Silver extends Coin {
   constructor(quantity) {
     super(CoinType.SILVER);
-    this.value = 20;
     this.quantity = quantity;
+    this.value = Silver.value;
+  }
+  valueOf() {
+    return Silver.value * this.quantity
   }
 }
+Silver.value = 20
 
 class Copper extends Coin {
   constructor(quantity) {
     super(CoinType.COPPER);
-    this.value = 1;
     this.quantity = quantity;
+    this.value = Copper.value;
+  }
+  valueOf() {
+    return Copper.value * this.quantity
   }
 }
+Copper.value = 1
 
-var purse = new Purse(new Gold(1), new Silver(12), new Copper(13));
-console.log(purse.copperValue);
+export {Purse, Gold, Silver, Copper}
+//////
+/* var purse = new Purse();
+console.clear();
+purse.Add(new Gold(1));
+purse.Add(new Silver(12))
+purse.Add(new Copper(13))
+console.log(purse.value);
+purse.Remove(new Copper(60))
+purse.value = -100
+console.log(purse.value);
+console.log(purse.normalize());
+console.log(purse) */

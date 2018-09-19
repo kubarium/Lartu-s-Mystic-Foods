@@ -1,7 +1,7 @@
 [
   {
     "name": "Deep-Fried Sweet & Fresh Scrambled Egg",
-    "equipment": ["pot", "pan"],
+    "equipment": ["pan"],
     "ingredients": {
       "spices": 1,
       "eggs": 2
@@ -94,8 +94,8 @@
     }
   },
   {
-    "name": "Grilled Chili Goulash",
-    "equipment": ["firepit", "pot"],
+    "name": "Chili Goulash",
+    "equipment": ["pot"],
     "ingredients": {
       "meat": 1,
       "spices": 1
@@ -403,14 +403,7 @@
   },
   {
     "name": "Braised Mushroom Moussaka",
-    "equipment": ["pan", "pot"],
-    "ingredients": {
-      "vegetables": 3
-    }
-  },
-  {
-    "name": "Simmered Fennel & Lime Moussaka",
-    "equipment": ["pot"],
+    "equipment": ["pan"],
     "ingredients": {
       "vegetables": 3
     }

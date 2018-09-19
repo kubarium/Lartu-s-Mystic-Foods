@@ -1,19 +1,57 @@
 <template>
   <div id="app">
-    <div class="container">
-      <div class="panel">
-        <div class="panel-heading">
-          Lartu's Mystic Foods Emporium
-        </div>
-        <div class="panel-block"></div>
+    <building/>
+    <div class="panel">
+      <div class="panel-heading">
+        Lartu's Mystic Foods Emporium
       </div>
+      <div class="panel-block"></div>
     </div>
+    <inventory/>
+    <customers/>
+
     <!-- <router-view/> -->
   </div>
 </template>
 
+<script>
+import Inventory from "@/components/Inventory.vue";
+import Customers from "@/components/Customers.vue";
+import Building from "@/components/Building.vue";
+import { Purse, Gold, Copper, Silver } from "./Purse";
+export default {
+  components: {
+    Inventory,
+    Customers,
+    Building
+  },
+  created() {
+    var purse = new Purse();
+
+    purse.value =
+      purse + new Gold(1) + new Silver(12) + new Copper(13) - new Copper(60);
+    /* purse.Add(new Gold(1));
+    purse.Add(new Silver(12));
+    purse.Add(new Copper(13)); */
+    console.log(purse.normalize());
+  }
+};
+</script>
+
+
 <style lang="scss">
 #app {
+  margin: 0 auto;
+  outline: 1px solid blue;
+  max-width: 960px;
   font-family: "Pacifico", cursive;
+}
+div.vue-tooltip {
+  background-color: transparent;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+}
+.tooltip-arrow {
+  display: none;
 }
 </style>
