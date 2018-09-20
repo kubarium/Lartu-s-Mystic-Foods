@@ -8,7 +8,6 @@
       <div class="panel-block"></div>
     </div>
     <inventory/>
-    <customers/>
 
     <!-- <router-view/> -->
   </div>
@@ -16,20 +15,17 @@
 
 <script>
 import Inventory from "@/components/Inventory.vue";
-import Customers from "@/components/Customers.vue";
 import Building from "@/components/Building.vue";
 import { Purse, Gold, Copper, Silver } from "./Purse";
 export default {
   components: {
     Inventory,
-    Customers,
     Building
   },
   created() {
     var purse = new Purse();
 
-    purse.value =
-      purse + new Gold(1) + new Silver(12) + new Copper(13) - new Copper(60);
+    purse.value = purse + new Gold(1) + new Silver(12) + new Copper(13) - new Copper(60);
     /* purse.Add(new Gold(1));
     purse.Add(new Silver(12));
     purse.Add(new Copper(13)); */
