@@ -1,9 +1,9 @@
 class Purse {
-  constructor() {
-    this.value = 0;
+  constructor(coin = 0) {
+    this.value = coin;
   }
-  valueOf() {
-    return 0;
+  isEmpty() {
+    return this.value === 0;
   }
   normalize() {
     var coins = {
@@ -16,15 +16,19 @@ class Purse {
     coins.copper = this.value - coins.gold * Gold.value - coins.silver * Silver.value;
     return coins;
   }
-  Add(coin) {
-    this.value += coin.quantity * coin.value;
+  Add(value) {
+    //this.value += coin.quantity * coin.value;
+    this.value += value;
+    return this;
   }
-  Remove(coin) {
-    this.value = Math.max(this.value - coin.quantity * coin.value, 0);
+  Remove(value) {
+    //this.value = Math.max(this.value - coin.quantity * coin.value, 0);
+    this.value = Math.max(this.value - value, 0);
+    return this;
   }
 }
 
-const CoinType = Object.freeze({ COPPER: "copper", SILVER: "Silver", GOLD: "Gold" });
+const CoinType = Object.freeze({COPPER: "copper", SILVER: "Silver", GOLD: "Gold"});
 
 class Coin {
   constructor(type) {
@@ -67,7 +71,7 @@ class Copper extends Coin {
 }
 Copper.value = 1;
 
-export { Purse, Gold, Silver, Copper };
+export {Purse, Gold, Silver, Copper};
 //////
 /* var purse = new Purse();
 console.clear();

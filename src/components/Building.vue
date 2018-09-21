@@ -1,6 +1,9 @@
 <template>
   <div class="building">
-    <div class="counter"></div>
+    <div class="controls">
+      <game-title class="game-title" />
+      <span class="sprite counter" />
+    </div>
     <div class="floor">
       <floor/>
     </div>
@@ -11,10 +14,12 @@
 </template>
 
 <script>
+import GameTitle from "@/components/GameTitle.vue";
 import Floor from "@/components/Floor.vue";
 export default {
   name: "Building",
   components: {
+    GameTitle,
     Floor
   }
 };
@@ -29,15 +34,26 @@ export default {
   outline: 1px solid yellow;
   /* position: absolute; */
   display: grid;
-  grid-template-rows: 140px auto 32px;
+  grid-template-rows: 220px auto 32px;
   grid-template-columns: [wall] 32px [floor] 1fr [wall] 32px;
   background: url("../assets/floor.jpg");
+}
+.controls {
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
+  height: 220px;
+  display: grid;
+  grid-template-columns: [space] 1fr [counter] 440px [space] 1fr;
+  grid-template-rows: 110px auto;
+}
+.game-title {
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
+  margin: -5px auto 0 auto;
 }
 .counter {
   grid-column: 2 / 3;
   grid-row: 1 / 2;
-  height: 140px;
-  background: red;
 }
 .floor {
   grid-column: 2 / 3;
@@ -46,7 +62,7 @@ export default {
 .left-wall {
   grid-column: 1 / 2;
   grid-row: 1 / 4;
-  background: url("../assets/left-wall.jpg");
+  background: url("../assets/left-wall.jpg") no-repeat;
   width: 32px;
   height: 100%;
 }

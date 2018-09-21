@@ -1,19 +1,19 @@
 <template>
-    <div class="food">
-        <h1 class="title is-6">
-            <span v-html="name.replace('&','&<br/>')" />
-        </h1>
-        <div class="ingredients">
-            <span v-for="(quantity, ingredient) in ingredients" :title="ingredient" :key="ingredient" class="ingredient">
-                <img :src="require(`@/assets/${ingredient}.png`)" class="ingredient-pic" /> {{quantity}}
-            </span>
-        </div>
-        <div class="cost">
-            <span v-for="(value, coin) in cost" :title="coin" :key="coin" class="coin">
-                <img :src="require(`@/assets/${coin}.png`)" class="coin-pic" /> {{value}}
-            </span>
-        </div>
+  <div class="food">
+    <h1 class="title is-6">
+      <span v-html="name.replace('&','&<br/>')" />
+    </h1>
+    <div class="ingredients">
+      <span v-for="(quantity, ingredient) in ingredients" :title="ingredient" :key="ingredient" class="ingredient">
+        <img :src="require(`@/assets/${ingredient}.png`)" class="ingredient-pic" /> {{quantity}}
+      </span>
     </div>
+    <div class="cost">
+      <span v-for="(value, coin) in cost" :title="coin" :key="coin" class="coin">
+        <img :src="require(`@/assets/${coin}.png`)" class="coin-pic" /> {{value}}
+      </span>
+    </div>
+  </div>
 </template>
 
 <script>

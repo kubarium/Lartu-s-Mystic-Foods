@@ -2,6 +2,7 @@ import Vue from 'vue'
 import Vuex from 'vuex'
 import foods from "./foods.json";
 import {Food as FoodItem, Inventory} from "./Inventory";
+import {Purse, Gold} from "./Purse";
 //Inventory.Create();
 
 Vue.use(Vuex)
@@ -11,6 +12,9 @@ export default new Vuex.Store({
     game: {
       isPlaying: false
     },
+    player: {
+      wealth: new Purse(1201679)
+    },
     foods,
     equipment: {
       pan: true,
@@ -18,7 +22,6 @@ export default new Vuex.Store({
       firepit: false,
       oven: false
     },
-    sik: this,
     inventory: []
   },
   getters: {
@@ -30,6 +33,17 @@ export default new Vuex.Store({
     createDish(state) {
 
       state.inventory = this.getters.listOfAvailableDishes
+    },
+    changeWealth(state, change) {
+      state.player.wealth = change >= 0
+        ? state
+          .player
+          .wealth
+          .Add(change)
+        : state
+          .player
+          .wealth
+          .Remove(-change)
     }
   },
   actions: {}

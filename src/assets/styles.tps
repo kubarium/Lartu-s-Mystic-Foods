@@ -242,6 +242,19 @@
                 <key>scale9FromFile</key>
                 <false/>
             </struct>
+            <key type="filename">counter.png</key>
+            <struct type="IndividualSpriteSettings">
+                <key>pivotPoint</key>
+                <point_f>0.5,0.5</point_f>
+                <key>scale9Enabled</key>
+                <false/>
+                <key>scale9Borders</key>
+                <rect>110,55,220,110</rect>
+                <key>scale9Paddings</key>
+                <rect>110,55,220,110</rect>
+                <key>scale9FromFile</key>
+                <false/>
+            </struct>
             <key type="filename">dairy.png</key>
             <struct type="IndividualSpriteSettings">
                 <key>pivotPoint</key>
@@ -374,6 +387,20 @@
                 <key>scale9FromFile</key>
                 <false/>
             </struct>
+            <key type="filename">stylish-header-left.png</key>
+            <key type="filename">stylish-header-right.png</key>
+            <struct type="IndividualSpriteSettings">
+                <key>pivotPoint</key>
+                <point_f>0.5,0.5</point_f>
+                <key>scale9Enabled</key>
+                <false/>
+                <key>scale9Borders</key>
+                <rect>8,10,15,20</rect>
+                <key>scale9Paddings</key>
+                <rect>8,10,15,20</rect>
+                <key>scale9FromFile</key>
+                <false/>
+            </struct>
             <key type="filename">vegetables.png</key>
             <struct type="IndividualSpriteSettings">
                 <key>pivotPoint</key>
@@ -434,6 +461,9 @@
             <filename>oven-off.png</filename>
             <filename>oven-on.png</filename>
             <filename>pan-off.png</filename>
+            <filename>stylish-header-left.png</filename>
+            <filename>stylish-header-right.png</filename>
+            <filename>counter.png</filename>
         </array>
         <key>ignoreFileList</key>
         <array/>

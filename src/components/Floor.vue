@@ -1,6 +1,6 @@
 <template>
   <div class="floor">
-    <div class="floorElement" :class="floorElement(tile)" v-for="tile in 28*17" @dragover="dragover" @drop="drop" :key="tile">{{debug?tile:""}}</div>
+    <div class="floorElement" :class="floorElement(tile)" v-for="tile in 28*15" @dragover="dragover" @drop="drop" :key="tile">{{debug?tile:""}}</div>
   </div>
 </template>
 
@@ -39,7 +39,6 @@ export default {
   computed: {}
 };
 </script>
-<style src="@/assets/styles.css"></style>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
