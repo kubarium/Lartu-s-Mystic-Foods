@@ -1,6 +1,6 @@
 <template>
-  <div class="floor">
-    <div class="floorElement" :class="floorElement(tile)" v-for="tile in 28*15" @dragover="dragover" @drop="drop" :key="tile">{{debug?tile:""}}</div>
+  <div>
+    <span class="floorElement" :class="floorElement(tile)" v-for="tile in 28*13" :key="tile">{{$store.state.debug?tile:""}}</span>
   </div>
 </template>
 
@@ -8,23 +8,14 @@
 import floorplan from "@/data/floorplan.json";
 export default {
   name: "Floor",
-  props: {
-    msg: String
-  },
+  props: {},
   data() {
     return {
-      debug: true,
       floorplan
     };
   },
   created() {},
   methods: {
-    dragover(event) {
-      //console.log(event);
-    },
-    drop(event) {
-      console.log(event);
-    },
     floorElement(tile) {
       var sprites = {};
       Object.keys(floorplan).forEach(sprite => {
@@ -44,14 +35,16 @@ export default {
 <style scoped lang="scss">
 $grid: 32px;
 $padding: 0px;
-.floor {
+$debug: 0px;
+div {
   display: grid;
   padding: $padding;
+  position: absolute;
   grid-template-columns: repeat(28, $grid);
 }
 .floorElement {
   width: $grid;
   height: $grid;
-  outline: 1px dashed rgba($color: red, $alpha: 0.2);
+  outline: $debug dashed rgba($color: red, $alpha: 0.2);
 }
 </style>

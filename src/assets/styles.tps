@@ -199,19 +199,25 @@
         </struct>
         <key>individualSpriteSettings</key>
         <map type="IndividualSpriteSettingsMap">
-            <key type="filename">chair-1-bottom.png</key>
-            <key type="filename">chair-1-left.png</key>
-            <key type="filename">chair-1-right.png</key>
-            <key type="filename">chair-1-top.png</key>
-            <key type="filename">chair-2-bottom.png</key>
-            <key type="filename">chair-2-left.png</key>
-            <key type="filename">chair-2-right.png</key>
-            <key type="filename">chair-2-top.png</key>
-            <key type="filename">chair-3-bottom.png</key>
-            <key type="filename">chair-3-left.png</key>
-            <key type="filename">chair-3-right.png</key>
-            <key type="filename">chair-3-top.png</key>
+            <key type="filename">chair-black-bottom.png</key>
+            <key type="filename">chair-black-left.png</key>
+            <key type="filename">chair-black-right.png</key>
+            <key type="filename">chair-black-top.png</key>
+            <key type="filename">chair-blue-bottom.png</key>
+            <key type="filename">chair-blue-left.png</key>
+            <key type="filename">chair-blue-right.png</key>
+            <key type="filename">chair-blue-top.png</key>
+            <key type="filename">chair-brown-bottom.png</key>
+            <key type="filename">chair-brown-left.png</key>
+            <key type="filename">chair-brown-right.png</key>
+            <key type="filename">chair-brown-top.png</key>
             <key type="filename">copper.png</key>
+            <key type="filename">customer-esctatic.png</key>
+            <key type="filename">customer-happy.png</key>
+            <key type="filename">customer-neutral.png</key>
+            <key type="filename">customer-star.png</key>
+            <key type="filename">customer-unhappy.png</key>
+            <key type="filename">customer-yummy.png</key>
             <key type="filename">gold.png</key>
             <key type="filename">pan-off.png</key>
             <key type="filename">pan-on.png</key>
@@ -230,6 +236,10 @@
             <key type="filename">table-top-right.png</key>
             <key type="filename">table-vertical-bottom.png</key>
             <key type="filename">table-vertical-top.png</key>
+            <key type="filename">table-wide-bottom.png</key>
+            <key type="filename">table-wide-left.png</key>
+            <key type="filename">table-wide-right.png</key>
+            <key type="filename">table-wide-top.png</key>
             <struct type="IndividualSpriteSettings">
                 <key>pivotPoint</key>
                 <point_f>0.5,0.5</point_f>
@@ -401,6 +411,20 @@
                 <key>scale9FromFile</key>
                 <false/>
             </struct>
+            <key type="filename">stylish-header-tall-left.png</key>
+            <key type="filename">stylish-header-tall-right.png</key>
+            <struct type="IndividualSpriteSettings">
+                <key>pivotPoint</key>
+                <point_f>0.5,0.5</point_f>
+                <key>scale9Enabled</key>
+                <false/>
+                <key>scale9Borders</key>
+                <rect>3,13,5,25</rect>
+                <key>scale9Paddings</key>
+                <rect>3,13,5,25</rect>
+                <key>scale9FromFile</key>
+                <false/>
+            </struct>
             <key type="filename">vegetables.png</key>
             <struct type="IndividualSpriteSettings">
                 <key>pivotPoint</key>
@@ -441,18 +465,6 @@
             <filename>table-vertical-bottom.png</filename>
             <filename>table-vertical-top.png</filename>
             <filename>vegetables.png</filename>
-            <filename>chair-1-bottom.png</filename>
-            <filename>chair-1-left.png</filename>
-            <filename>chair-1-right.png</filename>
-            <filename>chair-1-top.png</filename>
-            <filename>chair-2-bottom.png</filename>
-            <filename>chair-2-left.png</filename>
-            <filename>chair-2-right.png</filename>
-            <filename>chair-2-top.png</filename>
-            <filename>chair-3-bottom.png</filename>
-            <filename>chair-3-left.png</filename>
-            <filename>chair-3-top.png</filename>
-            <filename>chair-3-right.png</filename>
             <filename>spit-on.png</filename>
             <filename>spit-off.png</filename>
             <filename>pot-off.png</filename>
@@ -464,6 +476,30 @@
             <filename>stylish-header-left.png</filename>
             <filename>stylish-header-right.png</filename>
             <filename>counter.png</filename>
+            <filename>customer-neutral.png</filename>
+            <filename>customer-star.png</filename>
+            <filename>customer-unhappy.png</filename>
+            <filename>customer-yummy.png</filename>
+            <filename>customer-esctatic.png</filename>
+            <filename>customer-happy.png</filename>
+            <filename>stylish-header-tall-right.png</filename>
+            <filename>stylish-header-tall-left.png</filename>
+            <filename>table-wide-top.png</filename>
+            <filename>table-wide-bottom.png</filename>
+            <filename>table-wide-right.png</filename>
+            <filename>chair-black-bottom.png</filename>
+            <filename>chair-black-left.png</filename>
+            <filename>chair-black-right.png</filename>
+            <filename>chair-black-top.png</filename>
+            <filename>chair-blue-bottom.png</filename>
+            <filename>chair-blue-left.png</filename>
+            <filename>chair-blue-right.png</filename>
+            <filename>chair-blue-top.png</filename>
+            <filename>chair-brown-bottom.png</filename>
+            <filename>chair-brown-left.png</filename>
+            <filename>chair-brown-right.png</filename>
+            <filename>chair-brown-top.png</filename>
+            <filename>table-wide-left.png</filename>
         </array>
         <key>ignoreFileList</key>
         <array/>

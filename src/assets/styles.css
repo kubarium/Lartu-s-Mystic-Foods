@@ -1,7 +1,7 @@
 /* ----------------------------------------------------
    created with http://www.codeandweb.com/texturepacker 
    ----------------------------------------------------
-   $TexturePacker:SmartUpdate:9dc69efe228e020dcc2b9524a2bc7269:bee838e7e697565f64f3a4fbb6d53a2e:e01d77edd15c60b1583329efcbf25154$
+   $TexturePacker:SmartUpdate:85b764f578fb01c8e6c80d2039626b42:16ca72ff418a6d95d9bd1aea74ce54b7:e01d77edd15c60b1583329efcbf25154$
    ----------------------------------------------------
 
    usage: <span class="{-spritename-} sprite"></span>
@@ -12,50 +12,62 @@
 
 .sprite {display:inline-block; overflow:hidden; background-repeat: no-repeat;background-image:url(styles.png);}
 
-.chair-1-bottom {width:32px; height:32px; background-position: -349px -223px}
-.chair-1-left {width:32px; height:32px; background-position: -36px -337px}
-.chair-1-right {width:32px; height:32px; background-position: -443px -73px}
-.chair-1-top {width:32px; height:32px; background-position: -347px -257px}
-.chair-2-bottom {width:32px; height:32px; background-position: -72px -303px}
-.chair-2-left {width:32px; height:32px; background-position: -383px -223px}
-.chair-2-right {width:32px; height:32px; background-position: -70px -337px}
-.chair-2-top {width:32px; height:32px; background-position: -443px -107px}
-.chair-3-bottom {width:32px; height:32px; background-position: -381px -257px}
-.chair-3-left {width:32px; height:32px; background-position: -106px -303px}
-.chair-3-right {width:32px; height:32px; background-position: -104px -337px}
-.chair-3-top {width:32px; height:32px; background-position: -443px -141px}
-.copper {width:32px; height:32px; background-position: -140px -303px}
+.chair-black-bottom {width:32px; height:32px; background-position: -108px -223px}
+.chair-black-left {width:32px; height:32px; background-position: -142px -223px}
+.chair-black-right {width:32px; height:32px; background-position: -176px -223px}
+.chair-black-top {width:32px; height:32px; background-position: -210px -223px}
+.chair-blue-bottom {width:32px; height:32px; background-position: -244px -223px}
+.chair-blue-left {width:32px; height:32px; background-position: -278px -223px}
+.chair-blue-right {width:32px; height:32px; background-position: -312px -223px}
+.chair-blue-top {width:32px; height:32px; background-position: -346px -223px}
+.chair-brown-bottom {width:32px; height:32px; background-position: -380px -223px}
+.chair-brown-left {width:32px; height:32px; background-position: -414px -223px}
+.chair-brown-right {width:32px; height:32px; background-position: -467px -151px}
+.chair-brown-top {width:32px; height:32px; background-position: -483px -220px}
+.copper {width:32px; height:32px; background-position: -501px -81px}
 .counter {width:440px; height:220px; background-position: -1px -1px}
-.dairy {width:33px; height:26px; background-position: -313px -292px}
-.eggs {width:33px; height:25px; background-position: -310px -320px}
-.exotic {width:32px; height:35px; background-position: -443px -1px}
-.fruit {width:30px; height:33px; background-position: -417px -223px}
-.gold {width:32px; height:32px; background-position: -138px -337px}
-.meat {width:33px; height:30px; background-position: -348px -291px}
-.nuts {width:33px; height:19px; background-position: -308px -347px}
-.oven-off {width:34px; height:32px; background-position: -1px -303px}
-.oven-on {width:34px; height:32px; background-position: -313px -223px}
-.pan-off {width:32px; height:32px; background-position: -443px -175px}
-.pan-on {width:32px; height:32px; background-position: -174px -303px}
-.plant-1 {width:32px; height:32px; background-position: -172px -337px}
-.plant-2 {width:32px; height:32px; background-position: -208px -303px}
-.pot-off {width:32px; height:32px; background-position: -206px -337px}
-.pot-on {width:32px; height:32px; background-position: -242px -303px}
-.poultry {width:33px; height:33px; background-position: -1px -337px}
-.sash {width:310px; height:78px; background-position: -1px -223px}
-.seafood {width:32px; height:33px; background-position: -443px -38px}
-.silver {width:32px; height:32px; background-position: -240px -337px}
-.spices {width:32px; height:33px; background-position: -313px -257px}
-.spit-off {width:32px; height:32px; background-position: -276px -303px}
-.spit-on {width:32px; height:32px; background-position: -274px -337px}
-.stylish-header-left {width:10px; height:40px; background-position: -383px -291px}
-.stylish-header-right {width:10px; height:40px; background-position: -395px -291px}
-.table-bottom-left {width:32px; height:32px; background-position: -449px -209px}
-.table-bottom-right {width:32px; height:32px; background-position: -449px -243px}
-.table-horizontal-left {width:32px; height:32px; background-position: -415px -258px}
-.table-horizontal-right {width:32px; height:32px; background-position: -449px -277px}
-.table-top-left {width:32px; height:32px; background-position: -345px -323px}
-.table-top-right {width:32px; height:32px; background-position: -407px -292px}
-.table-vertical-bottom {width:32px; height:32px; background-position: -379px -333px}
-.table-vertical-top {width:32px; height:32px; background-position: -413px -326px}
-.vegetables {width:33px; height:32px; background-position: -37px -303px}
+.customer-esctatic {width:32px; height:32px; background-position: -501px -115px}
+.customer-happy {width:32px; height:32px; background-position: -501px -149px}
+.customer-neutral {width:32px; height:32px; background-position: -509px -183px}
+.customer-star {width:32px; height:32px; background-position: -517px -217px}
+.customer-unhappy {width:32px; height:32px; background-position: -535px -81px}
+.customer-yummy {width:32px; height:32px; background-position: -535px -115px}
+.dairy {width:33px; height:26px; background-position: -705px -81px}
+.eggs {width:33px; height:25px; background-position: -705px -109px}
+.exotic {width:32px; height:35px; background-position: -443px -185px}
+.fruit {width:30px; height:33px; background-position: -477px -185px}
+.gold {width:32px; height:32px; background-position: -535px -149px}
+.meat {width:33px; height:30px; background-position: -687px -217px}
+.nuts {width:33px; height:19px; background-position: -705px -136px}
+.oven-off {width:34px; height:32px; background-position: -1px -223px}
+.oven-on {width:34px; height:32px; background-position: -37px -223px}
+.pan-off {width:32px; height:32px; background-position: -543px -183px}
+.pan-on {width:32px; height:32px; background-position: -551px -217px}
+.plant-1 {width:32px; height:32px; background-position: -569px -81px}
+.plant-2 {width:32px; height:32px; background-position: -569px -115px}
+.pot-off {width:32px; height:32px; background-position: -569px -149px}
+.pot-on {width:32px; height:32px; background-position: -577px -183px}
+.poultry {width:33px; height:33px; background-position: -448px -222px}
+.sash {width:310px; height:78px; background-position: -443px -1px}
+.seafood {width:32px; height:33px; background-position: -467px -81px}
+.silver {width:32px; height:32px; background-position: -585px -217px}
+.spices {width:32px; height:33px; background-position: -467px -116px}
+.spit-off {width:32px; height:32px; background-position: -603px -81px}
+.spit-on {width:32px; height:32px; background-position: -603px -115px}
+.stylish-header-left {width:10px; height:40px; background-position: -455px -81px}
+.stylish-header-right {width:10px; height:40px; background-position: -455px -123px}
+.stylish-header-tall-left {width:10px; height:50px; background-position: -443px -81px}
+.stylish-header-tall-right {width:10px; height:50px; background-position: -443px -133px}
+.table-bottom-left {width:32px; height:32px; background-position: -603px -149px}
+.table-bottom-right {width:32px; height:32px; background-position: -611px -183px}
+.table-horizontal-left {width:32px; height:32px; background-position: -619px -217px}
+.table-horizontal-right {width:32px; height:32px; background-position: -637px -81px}
+.table-top-left {width:32px; height:32px; background-position: -637px -115px}
+.table-top-right {width:32px; height:32px; background-position: -637px -149px}
+.table-vertical-bottom {width:32px; height:32px; background-position: -645px -183px}
+.table-vertical-top {width:32px; height:32px; background-position: -653px -217px}
+.table-wide-bottom {width:32px; height:32px; background-position: -671px -81px}
+.table-wide-left {width:32px; height:32px; background-position: -671px -115px}
+.table-wide-right {width:32px; height:32px; background-position: -671px -149px}
+.table-wide-top {width:32px; height:32px; background-position: -679px -183px}
+.vegetables {width:33px; height:32px; background-position: -73px -223px}

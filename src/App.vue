@@ -1,40 +1,45 @@
 <template>
   <div id="app">
     <building/>
-    <div class="panel">
-      <div class="panel-heading">
-        Lartu's Mystic Foods Emporium
-      </div>
-      <div class="panel-block">
-
-      </div>
-    </div>
-    <inventory/>
     <!-- <router-view/> -->
   </div>
 </template>
 
 <script>
-import Inventory from "@/components/Inventory.vue";
-import Wealth from "@/components/Wealth.vue";
-import Equipment from "@/components/Equipment.vue";
 import Building from "@/components/Building.vue";
-import { Purse, Gold, Copper, Silver } from "./Purse";
 export default {
   components: {
-    Inventory,
-    Building,
-    Wealth,
-    Equipment
+    Building
+  },
+  methods: {
+    pause(event) {
+      if (event.charCode == 32) {
+        event.preventDefault();
+        this.$store.commit("toggleGame");
+      }
+    },
+    update(delta) {
+      console.log(delta);
+    }
+  },
+  mounted() {
+    console.log("mounted");
+  },
+  updated() {
+    console.log("updated");
   },
   created() {
-    var purse = new Purse(200);
+    //this.$store.state.MainLoop.setUpdate(this.update).start();
+    //context.state.MainLoop.setUpdate(this.update).start();
+    console.log("created");
+
+    //var purse = new Purse(200);
 
     //purse.value =      purse + new Gold(1) + new Silver(12) + new Copper(13) - new Copper(60);
     /* purse.Add(new Gold(1));
     purse.Add(new Silver(12));
     purse.Add(new Copper(13)); */
-    console.log(purse.normalize());
+    document.addEventListener("keypress", this.pause);
   }
 };
 </script>

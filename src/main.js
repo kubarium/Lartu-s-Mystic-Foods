@@ -5,6 +5,7 @@ import store from './store'
 import Tooltip from 'vue-directive-tooltip';
 import 'vue-directive-tooltip/css/index.css';
 import "bulma"
+import "./fontawesome"
 Vue.config.productionTip = false
 Vue.use(Tooltip);
 

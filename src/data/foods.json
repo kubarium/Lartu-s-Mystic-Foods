@@ -1,0 +1,411 @@
+[
+  {
+    "name": "Deep-Fried Sweet & Fresh Scrambled Egg",
+    "equipment": ["pan"],
+    "ingredients": {
+      "spices": 1,
+      "eggs": 2
+    }
+  },
+  {
+    "name": "Fire-Roasted Carrots & Ginger Alligator",
+    "equipment": ["spit"],
+    "ingredients": {
+      "exotic": 1,
+      "vegetables": 1,
+      "spices": 1
+    }
+  },
+  {
+    "name": "Stir-Fried Sugar Ostrich",
+    "equipment": ["pan"],
+    "ingredients": {
+      "exotic": 1,
+      "spices": 1
+    }
+  },
+  {
+    "name": "Stir-Fried Salt & Pepper Horse",
+    "equipment": ["pan"],
+    "ingredients": {
+      "exotic": 1,
+      "spices": 2
+    }
+  },
+  {
+    "name": "Tenderized Orange & Thyme Crocodile",
+    "equipment": ["pan"],
+    "ingredients": {
+      "exotic": 1,
+      "fruit": 1,
+      "spices": 1
+    }
+  },
+  {
+    "name": "Deep-Fried Egg & Coconut Bear",
+    "equipment": ["pot"],
+    "ingredients": {
+      "exotic": 1,
+      "nuts": 1,
+      "eggs": 1
+    }
+  },
+  {
+    "name": "Gentle-Fried Fennel & Garlic Mammoth",
+    "equipment": ["pan"],
+    "ingredients": {
+      "exotic": 1,
+      "vegetables": 2
+    }
+  },
+  {
+    "name": "Barbecued Elephant & Tuna",
+    "equipment": ["spit"],
+    "ingredients": {
+      "exotic": 1,
+      "seafood": 1,
+      "spices": 1
+    }
+  },
+  {
+    "name": "Barbecued Rabbit & Horse",
+    "equipment": ["spit"],
+    "ingredients": {
+      "exotic": 1,
+      "meat": 1,
+      "spices": 1
+    }
+  },
+  {
+    "name": "Salted Toad & Chickpea",
+    "equipment": ["pan"],
+    "ingredients": {
+      "exotic": 1,
+      "vegetables": 1
+    }
+  },
+  {
+    "name": "Stewed Mint & Orange Alligator",
+    "equipment": ["pot"],
+    "ingredients": {
+      "exotic": 1,
+      "fruit": 1,
+      "spices": 1
+    }
+  },
+  {
+    "name": "Chili Goulash",
+    "equipment": ["pot"],
+    "ingredients": {
+      "meat": 1,
+      "spices": 1
+    }
+  },
+  {
+    "name": "Grilled Sugar Pork",
+    "equipment": ["spit"],
+    "ingredients": {
+      "meat": 1,
+      "spices": 1
+    }
+  },
+  {
+    "name": "Sautéed Hot & Spicy Rabbit",
+    "equipment": ["pan"],
+    "ingredients": {
+      "meat": 1,
+      "spices": 3
+    }
+  },
+  {
+    "name": "Dry-Roasted Coriander & Lemon Beef",
+    "equipment": ["spit"],
+    "ingredients": {
+      "meat": 1,
+      "vegetables": 1,
+      "spices": 1
+    }
+  },
+  {
+    "name": "Stir-fried Orange Boar",
+    "equipment": ["pan"],
+    "ingredients": {
+      "meat": 1,
+      "fruit": 1
+    }
+  },
+  {
+    "name": "Baked Basil & Clove Rabbit",
+    "equipment": ["oven"],
+    "ingredients": {
+      "meat": 1,
+      "spices": 2
+    }
+  },
+  {
+    "name": "Steamed Parsnip & Pear Rabbit",
+    "equipment": ["oven"],
+    "ingredients": {
+      "meat": 1,
+      "fruit": 1,
+      "vegetables": 1
+    }
+  },
+  {
+    "name": "Smoked Mushroom & Garlic Venison",
+    "equipment": ["oven"],
+    "ingredients": {
+      "meat": 1,
+      "vegetables": 2
+    }
+  },
+  {
+    "name": "Blanched Raspberry & Peanut Mammoth",
+    "equipment": ["pan"],
+    "ingredients": {
+      "meat": 1,
+      "nuts": 1,
+      "fruit": 1
+    }
+  },
+  {
+    "name": "Smoked Egg & Beans Mutton",
+    "equipment": ["oven"],
+    "ingredients": {
+      "meat": 1,
+      "vegetables": 1,
+      "eggs": 1
+    }
+  },
+  {
+    "name": "Simmered Blackberry & Ginger Pork",
+    "equipment": ["pot"],
+    "ingredients": {
+      "meat": 1,
+      "fruit": 1,
+      "spices": 1
+    }
+  },
+  {
+    "name": "Brined Cucumber & Lime Pigeon",
+    "equipment": ["pot"],
+    "ingredients": {
+      "poultry": 1,
+      "vegetables": 2
+    }
+  },
+  {
+    "name": "Baked Creamy Pigeon",
+    "equipment": ["oven"],
+    "ingredients": {
+      "poultry": 1,
+      "dairy": 2
+    }
+  },
+  {
+    "name": "Stir-Fried Lime & Ginger Quail",
+    "equipment": ["pan"],
+    "ingredients": {
+      "poultry": 1,
+      "vegetables": 1,
+      "spices": 1
+    }
+  },
+  {
+    "name": "Slow-Cooked Rosemary & Onion Pigeon",
+    "equipment": ["pot"],
+    "ingredients": {
+      "poultry": 1,
+      "spices": 1,
+      "vegetables": 2
+    }
+  },
+  {
+    "name": "Shallow-Fried Cranberry Chicken",
+    "equipment": ["pan"],
+    "ingredients": {
+      "poultry": 1,
+      "fruit": 1
+    }
+  },
+  {
+    "name": "Roasted Cheese & Pheasant",
+    "equipment": ["spit"],
+    "ingredients": {
+      "poultry": 1,
+      "dairy": 1
+    }
+  },
+  {
+    "name": "Apricot & Basil Pheasant",
+    "equipment": ["spit"],
+    "ingredients": {
+      "poultry": 1,
+      "spices": 1,
+      "fruit": 1
+    }
+  },
+  {
+    "name": "Barbecued Grouse",
+    "equipment": ["spit"],
+    "ingredients": {
+      "poultry": 2
+    }
+  },
+  {
+    "name": "Breaded Mustard & Thyme Fish",
+    "equipment": ["pan"],
+    "ingredients": {
+      "seafood": 1,
+      "spices": 2
+    }
+  },
+  {
+    "name": "Deep-Fried Cheese & Snapper",
+    "equipment": ["pot"],
+    "ingredients": {
+      "seafood": 1,
+      "dairy": 1
+    }
+  },
+  {
+    "name": "Marinated Almonds & Avocado Tuna",
+    "equipment": ["pan"],
+    "ingredients": {
+      "seafood": 1,
+      "vegetables": 1,
+      "nuts": 1
+    }
+  },
+  {
+    "name": "Shallow-Fried Orange Clams",
+    "equipment": ["pan"],
+    "ingredients": {
+      "seafood": 1,
+      "fruit": 1
+    }
+  },
+  {
+    "name": "Stuffed Cinnamon Herring",
+    "equipment": ["pan"],
+    "ingredients": {
+      "seafood": 1,
+      "spices": 1
+    }
+  },
+  {
+    "name": "Breaded Saffron & Shallot Fish",
+    "equipment": ["pan"],
+    "ingredients": {
+      "seafood": 1,
+      "vegetables": 1,
+      "spices": 1
+    }
+  },
+  {
+    "name": "Fire-Roasted Garlic & Onion Tuna",
+    "equipment": ["spit"],
+    "ingredients": {
+      "seafood": 1,
+      "vegetables": 2
+    }
+  },
+  {
+    "name": "Breaded Fennel & Orange Lobster",
+    "equipment": ["pan"],
+    "ingredients": {
+      "seafood": 1,
+      "vegetables": 1,
+      "fruit": 1
+    }
+  },
+  {
+    "name": "Stewed Saffron & Shallot Crab",
+    "equipment": ["pot"],
+    "ingredients": {
+      "seafood": 1,
+      "vegetables": 1,
+      "spices": 1
+    }
+  },
+  {
+    "name": "Fire-Grilled Cinnamon & Thyme Cod",
+    "equipment": ["spit"],
+    "ingredients": {
+      "seafood": 1,
+      "spices": 2
+    }
+  },
+  {
+    "name": "Stewed Pepper & Garlic Salmon",
+    "equipment": ["pot"],
+    "ingredients": {
+      "seafood": 1,
+      "vegetables": 2
+    }
+  },
+  {
+    "name": "Fire-Grilled Herbs & Potato Wedges",
+    "equipment": ["spit"],
+    "ingredients": {
+      "vegetables": 1,
+      "spices": 2
+    }
+  },
+  {
+    "name": "Cooked Basil & Cinnamon Vegetables",
+    "equipment": ["pot"],
+    "ingredients": {
+      "vegetables": 2,
+      "spices": 2
+    }
+  },
+  {
+    "name": "Dry-Roasted Apricots & Honey Potatoes",
+    "equipment": ["spit"],
+    "ingredients": {
+      "vegetables": 2,
+      "spices": 1,
+      "fruit": 1
+    }
+  },
+  {
+    "name": "Mint & Orange Winter Greens",
+    "equipment": ["pan"],
+    "ingredients": {
+      "vegetables": 2,
+      "spices": 1,
+      "fruit": 1
+    }
+  },
+  {
+    "name": "Deep Fryed Stuffed Cauliflower",
+    "equipment": ["pot"],
+    "ingredients": {
+      "vegetables": 3,
+      "spices": 1
+    }
+  },
+  {
+    "name": "Grilled Potatoes & Spring Greens",
+    "equipment": ["spit"],
+    "ingredients": {
+      "vegetables": 3
+    }
+  },
+  {
+    "name": "Sautéed Potatoes & Forest Mushrooms",
+    "equipment": ["pan"],
+    "ingredients": {
+      "vegetables": 3,
+      "spices": 1
+    }
+  },
+  {
+    "name": "Braised Mushroom Moussaka",
+    "equipment": ["pan"],
+    "ingredients": {
+      "vegetables": 3
+    }
+  }
+]
